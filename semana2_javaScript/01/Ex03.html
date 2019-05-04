@@ -1,0 +1,30 @@
+<!-- Crie um algoritmo que leia o preço de um produto e
+mostre as opções de pagamento, considerando:
+a) Pagamento à vista (10% de desconto);
+b) Pagamento em 3x;
+Exemplo de saída: 
+    Preço: R$ 60.00
+    À vista: R$ 54.00
+    Ou 3x de: R$ 20.00 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    Olá 
+    <script>
+    var
+    preco = Number(prompt('Digite o valor do produto '));
+    pag_a_vista = preco*10/100;
+    pag_parcelado = preco/3;
+    console.log(' O valor total do produto é: R$ ', preco, ' O valor à vista, fica no total de: R$  ' , preco-pag_a_vista , ' O 3X de: R$  ' ,  preco/3);
+
+    
+    </script>
+</body>
+</html>
